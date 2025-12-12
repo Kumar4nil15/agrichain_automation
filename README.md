@@ -1,6 +1,5 @@
 # Agrichain – Automation Assignment
 
-This assignment contains two parts:
 
 1. **Program to find the length of the longest substring without repeating characters**
 2. **Web automation of a sample website (agrichain.com)** which accepts a string and displays the longest unique substring length on the next page.
