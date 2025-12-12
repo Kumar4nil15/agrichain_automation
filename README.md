@@ -18,6 +18,41 @@ This helps efficiently calculate the length of the longest substring with unique
 
 # 📌 Problem 2:
 
+#Test Cases for Assumed Website
+
+#Manual Test Cases
+
+Check if input box and submit button are visible.
+
+Enter a valid string and verify correct result.
+
+Enter empty input → check for error message.
+
+Enter only spaces.
+
+Enter special characters.
+
+Enter numbers.
+
+Very long string performance.
+
+Verify navigation from Home Page → Result Page.
+
+Test on Chrome, Firefox, Edge.
+
+# Automation Test Cases
+
+Valid input (“abcabcbb”) should return 3
+
+Input “bbbbb” should return 1
+
+Validate error message for empty input
+
+Verify navigation after clicking submit
+
+Verify behavior for special characters
+
+Long string performance check
 I created a small Selenium automation framework based on assumptions.
 
 To keep the project clean and easy to understand, I used a very simple structure:
