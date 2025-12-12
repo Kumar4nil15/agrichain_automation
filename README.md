@@ -1,4 +1,4 @@
-# Agrichain – Longest Substring Automation Assignment
+# Agrichain – Automation Assignment
 
 This assignment contains two parts:
 
@@ -8,10 +8,27 @@ This assignment contains two parts:
 
 ---
 
-# 📌 Problem 1: Longest Substring Program (Python)
+# 📌 Problem 1:
 
 I used a simple sliding-window logic to solve this in O(n) time.
 
 I implemented a simple Python solution using the sliding window technique.
 The logic continuously expands a window, and whenever a repeated character is found, the window is adjusted.
 This helps efficiently calculate the length of the longest substring with unique characters.
+
+
+# 📌 Problem 2:
+
+I created a small Selenium automation framework based on assumptions.
+
+To keep the project clean and easy to understand, I used a very simple structure:
+
+utils/ → Browser initialization
+
+locators/ → Stores all element locators
+
+pages/ → Page Object Model (page actions like enter text, click submit)
+
+tests/ → Contains the actual automated test case
+
+I automated one test case where I input a sample string and validate that the correct longest substring length is displayed on the next page.
