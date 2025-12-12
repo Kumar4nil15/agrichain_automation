@@ -53,14 +53,14 @@ This helps efficiently calculate the length of the longest substring with unique
 
 
 
-# To keep the project clean and easy to understand, I used a very simple structure:
+# Framework Structure
 
-- utils/ > Browser initialization
+- utils/  ***Browser initialization***
 
-- locators/ > Stores all element locators
+- locators/ ***Stores all element locators***
 
-- pages/ > Page Object Model (page actions like enter text, click submit)
+- pages/  ***Page Object Model (page actions like enter text, click submit)***
 
- - tests/ > Contains the actual automated test case
+ - tests/  ***Contains the actual automated test case***
 
 - I automated one test case where I input a sample string and validate that the correct longest substring length is displayed on the next page.
