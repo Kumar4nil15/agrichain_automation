@@ -42,9 +42,9 @@ Test on Chrome.
 
 # Automation Test Cases
 
-==Valid input (“abcabcbb”) should return 3==
+- Valid input (“abcabcbb”) should return 3
 
-Input “bbbbb” should return 1
+- Input “bbbbb” should return 1
 
 Validate error message for empty input
 
