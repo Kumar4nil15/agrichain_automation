@@ -15,7 +15,7 @@ def test_valid_input():
         home.enter_text("abcabcbb")
         home.click_submit()
 
-        time.sleep(1)   # small wait
+        time.sleep(1)
 
         output = result.get_result()
 
