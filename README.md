@@ -22,23 +22,21 @@ This helps efficiently calculate the length of the longest substring with unique
 
 # Manual Test Cases
 
-Check if input box and submit button are visible.
+- Check if input box and submit button are visible.
 
-Enter a valid string and verify correct result.
+- Enter a valid string and verify correct result.
 
-Enter empty input → check for error message.
+- Enter empty input → check for error message.
 
-Enter only spaces.
+- Enter special characters.
 
-Enter special characters.
+- Enter numbers.
 
-Enter numbers.
+ - Very long string performance.
 
-Very long string performance.
+ - Verify navigation from Home Page → Result Page.
 
-Verify navigation from Home Page → Result Page.
-
-Test on Chrome.
+- Test on Chrome.
 
 # Automation Test Cases
 
@@ -46,24 +44,23 @@ Test on Chrome.
 
 - Input “bbbbb” should return 1
 
-Validate error message for empty input
+- Validate error message for empty input
 
-Verify navigation after clicking submit
+- Verify navigation after clicking submit
 
-Verify behavior for special characters
+- Verify behavior for special characters
 
 
-Long string performance check
-I created a small Selenium automation framework based on assumptions.
 
-To keep the project clean and easy to understand, I used a very simple structure:
 
-utils/ → Browser initialization
+# To keep the project clean and easy to understand, I used a very simple structure:
 
-locators/ → Stores all element locators
+- utils/ > Browser initialization
 
-pages/ → Page Object Model (page actions like enter text, click submit)
+- locators/ > Stores all element locators
 
-tests/ → Contains the actual automated test case
+- pages/ > Page Object Model (page actions like enter text, click submit)
 
-I automated one test case where I input a sample string and validate that the correct longest substring length is displayed on the next page.
+ - tests/ > Contains the actual automated test case
+
+- I automated one test case where I input a sample string and validate that the correct longest substring length is displayed on the next page.
